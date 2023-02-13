@@ -7,6 +7,7 @@
     right: 0;
     place-content: center;
     display: none;
+    z-index: 2;
 }
 
 .activeForm {

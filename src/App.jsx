@@ -34,7 +34,7 @@ const getAllUsers = () => {
   .catch((err) => console.log(err))
 }
 
-const deleteUser = () => {
+const deleteUser = (id) => {
   axios
   .delete(`${BASE_URL}users/${id}/`)
   .then(() => getAllUsers())
