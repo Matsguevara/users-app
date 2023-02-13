@@ -1,0 +1,73 @@
+
+.userCard__container {
+    width: 280px;
+    background-color: rgb(246, 247, 247);
+    border: 2px solid;
+    border-color: rgb(176, 176, 176);
+    border-radius: 4px;
+    margin: 15px;
+}
+
+.userCard__name {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.userCard__hr {
+    width: 90%;
+    opacity: 20%;
+}
+
+.userCard__list {
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.userCard__item span {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(188, 188, 188);
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.userCard__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+    padding: 9px;
+}
+
+.userCard__btn__trash{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(217, 29, 29);
+    color: azure;
+    cursor: pointer; 
+    transition: background 200ms ease;
+    margin-bottom: 5px;
+}
+
+.userCard__btn__trash:hover {
+    background-color: red;
+}
+
+.userCard__btn__pencil {
+    font-size: 20px;
+    border: 1px solid;
+    border-color: rgb(98, 99, 99);
+    border-radius: 5px;
+    color: rgb(98, 99, 99);
+    cursor: pointer; 
+    transition: background 200ms ease;
+    margin-bottom: 5px;
+}
+
+.userCard__btn__pencil:hover {
+    background-color: rgb(185, 216, 216);
+}

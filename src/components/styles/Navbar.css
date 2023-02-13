@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    display: grid;
+    place-content: center;
+}
+
+.navbar__title {
+    font-size: 24px;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+   }
+   
+    .navbar__title {
+        font-size: 30px;
+    }
+}
+
+.navbar__btn {
+    background-color: var(--purple);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 200ms ease;
+}
+
+.navbar__btn:hover {
+    background-color: var(--medium-purple);
+}
